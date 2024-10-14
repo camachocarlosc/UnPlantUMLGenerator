@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Class Parser</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <title>Generador de Diagramas de Clase PlantUML</title>
 </head>
 <body>
-    <h1>Fetch Java Classes from GitHub Repository</h1>
-    <input type="text" id="repoUrl" placeholder="Enter GitHub Repository URL" >
-    <button onclick="fetchJavaFiles()">Fetch Java Files</button>
-    <div id="output"></div>
-
-    <script src="parser.js"></script>
+    <h1>Generador de Diagramas de Clase PlantUML</h1>
+    <input type="text" id="repoUrl" placeholder="Introduce la URL del repositorio de GitHub">
+    <button onclick="fetchJavaFiles()">Generar Diagrama</button>
+    <button onclick="testGenerator()">Probar con Repositorio de Ejemplo</button>
+    <pre id="output"></pre>
+    <script src="script.js"></script>
 </body>
 </html>
+
